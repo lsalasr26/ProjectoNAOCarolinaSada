@@ -1,0 +1,254 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+  
+header {
+    background-color: #ffbdbd;
+    padding: 20px 0;
+    color: #c43fae;
+}
+  
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+  
+nav ul li {
+    margin-left: 20px;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: #c43fae;
+    font-weight: bold;
+}
+  
+header h1 {
+    text-align: center;
+    color: #c43fae;
+    margin-bottom: 10px;
+}
+  
+.container > p {
+    text-align: center;
+    color: #c43fae;
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+  
+.container > h2 {
+    text-align: center;
+    color: #fff;
+    background-color: #c43fae;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+  
+.container > h3 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #c43fae;
+    margin-top: 5px;
+}
+  
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+}
+  
+.about {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+  
+.about h2 {
+    color: #c43fae;
+    margin-bottom: 10px;
+}
+  
+.text-muted {
+    color: #666;
+    line-height: 1.6;
+}
+  
+footer {
+    background-color: #c43fae;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+  
+/* Estilos de la cabecera del resumen */
+.resume-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+  
+.resume-header h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.resume-header button {
+    color: #fff;
+    background-color: #c43fae;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+  
+/* Estilos de la sección de experiencia */
+.experience {
+    background-color: #fff;
+    padding: 20px;
+}
+  
+.experience h2, .education h2 {
+    color: #c43fae;
+    margin-bottom: 20px;
+}
+  
+.job {
+    margin-bottom: 20px;
+}
+  
+.job h3, .study h3 {
+    color: #c43fae;
+    margin-bottom: 5px;
+}
+  
+.years {
+    font-style: italic;
+    color: #666;
+}
+  
+/* Estilos de la sección de educación */
+.education {
+    background-color: #fff;
+    padding: 20px;
+}
+  
+.study {
+    margin-bottom: 20px;
+}
+  
+/* Estilos de la cabecera de servicios */
+.services-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+  
+.services-header h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+/* Estilos de la sección de servicios ofrecidos */
+.services-offered {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+.service {
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 20px;
+    width: calc(50% - 40px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+  
+.service h3 {
+    color: #c43fae;
+    margin-bottom: 15px;
+}
+
+.service p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+  
+/* Estilos de la cabecera de contacto */
+.contact-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+  
+.contact-header h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+.contact-header p {
+    color: #666;
+    font-size: 1.2em;
+}
+  
+/* Estilos del formulario de contacto */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+  
+.contact-form form {
+    max-width: 500px;
+    margin: auto;
+}
+  
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.contact-form button {
+    background-color: #c43fae;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+  
+.contact-form button:hover {
+    background-color: #a538a0;
+}
+
+   
+  
